@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/Users/anton.fenske/CLionProjects/maxSum/MaxRowCol.cpp
+MaxRowCol.h
+/Users/anton.fenske/CLionProjects/maxSum/MaxRowCol.h
+
+/Users/anton.fenske/CLionProjects/maxSum/MaxRowCol.h
+tuple
+-
+
 /Users/anton.fenske/CLionProjects/maxSum/main.cpp
 iostream
 -
+MaxRowCol.h
+/Users/anton.fenske/CLionProjects/maxSum/MaxRowCol.h
 

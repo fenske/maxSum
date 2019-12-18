@@ -3,4 +3,4 @@ project(maxSum)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(maxSum main.cpp cmake-build-debug/maxRowCol.h)
+add_executable(maxSum main.cpp MaxRowCol.h MaxRowCol.cpp)

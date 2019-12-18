@@ -123,6 +123,33 @@ maxSum/fast:
 	$(MAKE) -f CMakeFiles/maxSum.dir/build.make CMakeFiles/maxSum.dir/build
 .PHONY : maxSum/fast
 
+MaxRowCol.o: MaxRowCol.cpp.o
+
+.PHONY : MaxRowCol.o
+
+# target to build an object file
+MaxRowCol.cpp.o:
+	$(MAKE) -f CMakeFiles/maxSum.dir/build.make CMakeFiles/maxSum.dir/MaxRowCol.cpp.o
+.PHONY : MaxRowCol.cpp.o
+
+MaxRowCol.i: MaxRowCol.cpp.i
+
+.PHONY : MaxRowCol.i
+
+# target to preprocess a source file
+MaxRowCol.cpp.i:
+	$(MAKE) -f CMakeFiles/maxSum.dir/build.make CMakeFiles/maxSum.dir/MaxRowCol.cpp.i
+.PHONY : MaxRowCol.cpp.i
+
+MaxRowCol.s: MaxRowCol.cpp.s
+
+.PHONY : MaxRowCol.s
+
+# target to generate assembly for a file
+MaxRowCol.cpp.s:
+	$(MAKE) -f CMakeFiles/maxSum.dir/build.make CMakeFiles/maxSum.dir/MaxRowCol.cpp.s
+.PHONY : MaxRowCol.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,33 +177,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/maxSum.dir/build.make CMakeFiles/maxSum.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-maxRowCol.o: maxRowCol.cpp.o
-
-.PHONY : maxRowCol.o
-
-# target to build an object file
-maxRowCol.cpp.o:
-	$(MAKE) -f CMakeFiles/maxSum.dir/build.make CMakeFiles/maxSum.dir/maxRowCol.cpp.o
-.PHONY : maxRowCol.cpp.o
-
-maxRowCol.i: maxRowCol.cpp.i
-
-.PHONY : maxRowCol.i
-
-# target to preprocess a source file
-maxRowCol.cpp.i:
-	$(MAKE) -f CMakeFiles/maxSum.dir/build.make CMakeFiles/maxSum.dir/maxRowCol.cpp.i
-.PHONY : maxRowCol.cpp.i
-
-maxRowCol.s: maxRowCol.cpp.s
-
-.PHONY : maxRowCol.s
-
-# target to generate assembly for a file
-maxRowCol.cpp.s:
-	$(MAKE) -f CMakeFiles/maxSum.dir/build.make CMakeFiles/maxSum.dir/maxRowCol.cpp.s
-.PHONY : maxRowCol.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... maxSum"
+	@echo "... MaxRowCol.o"
+	@echo "... MaxRowCol.i"
+	@echo "... MaxRowCol.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... maxRowCol.o"
-	@echo "... maxRowCol.i"
-	@echo "... maxRowCol.s"
 .PHONY : help
 
 

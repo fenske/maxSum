@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/maxSum.dir/MaxRowCol.cpp.o"
   "CMakeFiles/maxSum.dir/main.cpp.o"
-  "CMakeFiles/maxSum.dir/maxRowCol.cpp.o"
   "maxSum"
   "maxSum.pdb"
 )

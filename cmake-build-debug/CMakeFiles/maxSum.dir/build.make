@@ -70,29 +70,29 @@ CMakeFiles/maxSum.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/maxSum.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anton.fenske/CLionProjects/maxSum/main.cpp -o CMakeFiles/maxSum.dir/main.cpp.s
 
-CMakeFiles/maxSum.dir/maxRowCol.cpp.o: CMakeFiles/maxSum.dir/flags.make
-CMakeFiles/maxSum.dir/maxRowCol.cpp.o: maxRowCol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anton.fenske/CLionProjects/maxSum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/maxSum.dir/maxRowCol.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/maxSum.dir/maxRowCol.cpp.o -c /Users/anton.fenske/CLionProjects/maxSum/cmake-build-debug/maxRowCol.cpp
+CMakeFiles/maxSum.dir/MaxRowCol.cpp.o: CMakeFiles/maxSum.dir/flags.make
+CMakeFiles/maxSum.dir/MaxRowCol.cpp.o: ../MaxRowCol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anton.fenske/CLionProjects/maxSum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/maxSum.dir/MaxRowCol.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/maxSum.dir/MaxRowCol.cpp.o -c /Users/anton.fenske/CLionProjects/maxSum/MaxRowCol.cpp
 
-CMakeFiles/maxSum.dir/maxRowCol.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/maxSum.dir/maxRowCol.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anton.fenske/CLionProjects/maxSum/cmake-build-debug/maxRowCol.cpp > CMakeFiles/maxSum.dir/maxRowCol.cpp.i
+CMakeFiles/maxSum.dir/MaxRowCol.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/maxSum.dir/MaxRowCol.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anton.fenske/CLionProjects/maxSum/MaxRowCol.cpp > CMakeFiles/maxSum.dir/MaxRowCol.cpp.i
 
-CMakeFiles/maxSum.dir/maxRowCol.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/maxSum.dir/maxRowCol.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anton.fenske/CLionProjects/maxSum/cmake-build-debug/maxRowCol.cpp -o CMakeFiles/maxSum.dir/maxRowCol.cpp.s
+CMakeFiles/maxSum.dir/MaxRowCol.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/maxSum.dir/MaxRowCol.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anton.fenske/CLionProjects/maxSum/MaxRowCol.cpp -o CMakeFiles/maxSum.dir/MaxRowCol.cpp.s
 
 # Object files for target maxSum
 maxSum_OBJECTS = \
 "CMakeFiles/maxSum.dir/main.cpp.o" \
-"CMakeFiles/maxSum.dir/maxRowCol.cpp.o"
+"CMakeFiles/maxSum.dir/MaxRowCol.cpp.o"
 
 # External object files for target maxSum
 maxSum_EXTERNAL_OBJECTS =
 
 maxSum: CMakeFiles/maxSum.dir/main.cpp.o
-maxSum: CMakeFiles/maxSum.dir/maxRowCol.cpp.o
+maxSum: CMakeFiles/maxSum.dir/MaxRowCol.cpp.o
 maxSum: CMakeFiles/maxSum.dir/build.make
 maxSum: CMakeFiles/maxSum.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anton.fenske/CLionProjects/maxSum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable maxSum"
